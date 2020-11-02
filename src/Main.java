@@ -40,7 +40,7 @@ public class Main {
     public static void tangentMethod(){
         int count = 0;
         double xMin = 0;
-        double eps = 10e-1;
+        double eps = 10e-10;
         Function func = new Function(3, 5, eps);
         boolean search = true; //Переменная, показывающая, нужен ли поиск или нет (на случай, если функция монотонно убывает/возрастает)
 
